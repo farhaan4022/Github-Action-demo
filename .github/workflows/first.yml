@@ -4,7 +4,7 @@ on: push
 
 jobs:
     First_job:
-        runs-on: ubuntu_latest
+        runs-on: ubuntu-latest
         steps:
         - name: welcome messsage
           run: echo "hello! its my first job"
